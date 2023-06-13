@@ -1,6 +1,5 @@
 import React from 'react'
 import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown } from "react-icons/ai";
-import logo from '../images/logo.webp'
 import styles from './Header.module.css'
 
 export const Header = () => {
@@ -11,7 +10,7 @@ export const Header = () => {
             </div>
             <div className={styles.headerContainerBottom}>
                 <div className={styles.headerLogo}>
-                    <img src={logo} alt="Logo from goggle eyes" />
+                    <img src='./images/logo.webp' alt="Logo from goggle eyes" />
                 </div>
                 <nav className={styles.headerMenu}>
                     <div>
