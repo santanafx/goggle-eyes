@@ -1,5 +1,6 @@
 import React from 'react'
 import { Slider } from '../components/Slider';
+import { InformationBar } from '../components/InformationBar';
 
 export const Home = () => {
 
@@ -11,8 +12,8 @@ export const Home = () => {
 
     return (
         <main>
-            {console.log(slides.length)}
             <Slider slides={slides} />
+            <InformationBar />
         </main>
     )
 }

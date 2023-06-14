@@ -10,7 +10,7 @@ img {
 }
 
 :root {
-  --primary-color: #152e35;
-  --button-primary-color: #c1f8f8;
-  --button-secundary-color: #333333;
+  --first-color: #152e35;
+  --second-color: #c1f8f8;
+  --third-color: #333333;
 }

@@ -61,7 +61,7 @@
     left: 50%;
     top: 90%;
     transform: translate(-50%, 0);
-    z-index: 3;
+    z-index: 5;
 }
 
 .sliderContainer svg {
@@ -113,8 +113,8 @@
 }
 
 .sliderCard button {
-    color: var(--button-secundary-color);
-    background-color: var(--button-primary-color);
+    color: var(--third-color);
+    background-color: var(--second-color);
     padding: 10px 25px;
     border-style: none;
     border-radius: 5px;
@@ -123,6 +123,6 @@
 }
 
 .sliderCard button:hover {
-    background-color: var(--button-secundary-color);
+    background-color: var(--third-color);
     color: white;
 }
