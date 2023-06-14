@@ -46,16 +46,17 @@ export const Slider = ({ slides }) => {
 
     return (
         <div className={styles.sliderContainer}>
+            <div className={styles.sliderBgDark}></div>
             {animation ? <div className={styles.sliderAnimationImg}
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}>
             </div> : ''}
             {animation ? '' : <div className={styles.sliderAnimationImg}
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}>
             </div>}
-            <div className={styles.sliderRightArrow} onClick={() => goToNext()} tabIndex={1}>
+            <div className={styles.sliderRightArrow} onClick={() => goToNext()}>
                 <AiOutlineCaretRight size='60' color='white' />
             </div>
-            <div className={styles.sliderLeftArrow} onClick={() => goToPrevious()} tabIndex={2}>
+            <div className={styles.sliderLeftArrow} onClick={() => goToPrevious()}>
                 <AiOutlineCaretLeft size='60' color='white' />
             </div>
             <div className={styles.sliderDots}>
@@ -63,6 +64,19 @@ export const Slider = ({ slides }) => {
                     <VscCircleLargeFilled onClick={() => goToIndex(index)} style={{ margin: '0px 10px' }} size='20' color='white' key={element + index} />
                 ))}
             </div>
+            {animation ?
+                <div className={styles.sliderCard}>
+                    <h1>Slide {currentIndex + 1}</h1>
+                    <p>{slides[currentIndex].card}</p>
+                    <button>Click Here</button>
+                </div> : ''}
+            {animation ?
+                '' : <div className={styles.sliderCard}>
+                    <h1>Slide {currentIndex + 1}</h1>
+                    <p>{slides[currentIndex].card}</p>
+                    <button>Click Here</button>
+                </div>}
+
         </div>
     )
 }

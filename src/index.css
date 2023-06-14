@@ -11,4 +11,6 @@ img {
 
 :root {
   --primary-color: #152e35;
+  --button-primary-color: #c1f8f8;
+  --button-secundary-color: #333333;
 }
