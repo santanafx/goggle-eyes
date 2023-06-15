@@ -1,0 +1,42 @@
+.gogglesTitle {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.gogglesTitle h1 {
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: var(--first-color);
+}
+
+.gogglesImgsContainer {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.gogglesImgsContainer div {
+    cursor: pointer;
+}
+
+.gogglesImgsContainer img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 220px;
+    margin-bottom: 20px;
+}
+
+.gogglesImgsContainer div span {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--first-color);
+}

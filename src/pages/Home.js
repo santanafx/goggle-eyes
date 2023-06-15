@@ -1,6 +1,7 @@
 import React from 'react'
 import { Slider } from '../components/Slider';
 import { InformationBar } from '../components/InformationBar';
+import { Goggles } from '../components/Goggles';
 
 export const Home = () => {
 
@@ -14,6 +15,7 @@ export const Home = () => {
         <main>
             <Slider slides={slides} />
             <InformationBar />
+            <Goggles />
         </main>
     )
 }

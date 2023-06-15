@@ -1,6 +1,7 @@
 .informationBarBg {
     width: 100%;
     background-color: var(--first-color);
+    margin-bottom: 40px;
 }
 
 .informationBarContainer {
