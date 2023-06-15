@@ -1,0 +1,29 @@
+{
+  "dataBase": [
+    {
+      "id": "0",
+      "name": "swimming-goggles",
+      "image": "./images/swimming-goggles.webp"
+    },
+    {
+      "id": "1",
+      "name": "sunglasses",
+      "image": "./images/sunglasses.webp"
+    },
+    {
+      "id": "2",
+      "name": "eye-glasses",
+      "image": "./images/eye-glasses.webp"
+    },
+    {
+      "id": "3",
+      "name": "diving-glasses",
+      "image": "./images/diving-glasses.webp"
+    },
+    {
+      "id": "4",
+      "name": "brandedglasses",
+      "image": "./images/brandedglasses.webp"
+    }
+  ]
+}
