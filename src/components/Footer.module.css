@@ -1,0 +1,93 @@
+.footerContainerBg {
+    background-color: var(--forth-color);
+    width: 100%;
+}
+
+.footerContainer {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1175px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    gap: 15px;
+}
+
+.footerContainer p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+
+.footerContainer span {
+    color: var(--third-color);
+    margin-bottom: 10px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.footerLogo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo img {
+    max-width: 230px;
+    margin-bottom: 20px;
+}
+
+.footerLogo span {
+    text-align: justify;
+}
+
+.footerCustumer {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerOpen {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerOpen div {
+    margin-bottom: 10px;
+}
+
+.footerContacts {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContacts div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footerContacts div svg {
+    margin-right: 5px;
+}
+
+.footerContacts div span {
+    margin-bottom: 0 !important;
+}
+
+.footerBottomBg {
+    width: 100%;
+    background-color: var(--fith-color);
+}
+
+.footerBottom {
+    width: 95%;
+    min-height: 15px;
+    margin: 0 auto;
+    max-width: 1175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

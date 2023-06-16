@@ -29,6 +29,7 @@
     min-width: 210px;
     padding: 0 10px;
     min-height: 70px;
+    user-select: none;
 }
 
 .informationBarDescription svg {
