@@ -1,0 +1,12 @@
+.advertiseSummerContainer {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1175px;
+    display: flex;
+    justify-content: center;
+}
+
+.advertiseSummerContainer img {
+    max-height: 430px;
+
+}

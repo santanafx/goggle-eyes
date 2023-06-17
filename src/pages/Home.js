@@ -3,6 +3,7 @@ import { Slider } from '../components/Slider';
 import { InformationBar } from '../components/InformationBar';
 import { Goggles } from '../components/Goggles';
 import { Featured } from '../components/Featured';
+import { AdvertiseSummer } from '../components/AdvertiseSummer';
 
 export const Home = () => {
 
@@ -18,6 +19,7 @@ export const Home = () => {
             <InformationBar />
             <Goggles />
             <Featured />
+            <AdvertiseSummer />
         </main>
     )
 }
