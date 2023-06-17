@@ -7,7 +7,7 @@ export const ContextProvider = ({ children }) => {
     const [data, setData] = React.useState();
 
     React.useEffect(() => {
-        fetch('http://localhost:5000/dataBase', {
+        fetch('http://localhost:5000/data', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -18,6 +18,7 @@ export const ContextProvider = ({ children }) => {
             .catch(err => console.log(err))
     }, [])
 
+    console.log(data)
     return (
         <Context.Provider value={{ data }}>
             {children}

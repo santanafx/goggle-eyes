@@ -1,29 +1,76 @@
 {
-  "dataBase": [
+  "data": [
     {
-      "id": "0",
-      "name": "swimming-goggles",
-      "image": "./images/swimming-goggles.webp"
-    },
-    {
-      "id": "1",
-      "name": "sunglasses",
-      "image": "./images/sunglasses.webp"
-    },
-    {
-      "id": "2",
-      "name": "eye-glasses",
-      "image": "./images/eye-glasses.webp"
-    },
-    {
-      "id": "3",
-      "name": "diving-glasses",
-      "image": "./images/diving-glasses.webp"
-    },
-    {
-      "id": "4",
-      "name": "brandedglasses",
-      "image": "./images/brandedglasses.webp"
+      "swimmingGoggles": [
+        {
+          "id": 0,
+          "name": "Aquasphere Fastlane Unisex Swimming Goggles",
+          "image": "./images/aquasphere-fastlane.webp",
+          "price": "$20.00"
+        },
+        {
+          "id": 1,
+          "name": "Arena Unisex Swim Goggles",
+          "image": "./images/arena-goggle.webp",
+          "price": "$10.00"
+        }
+      ],
+      "sunGlasses": [
+        {
+          "id": 2,
+          "name": "Gucci Pilot Urban Aviator Sunglasses",
+          "image": "./images/gucci-pilot-sunglasses.webp",
+          "price": "$10.00"
+        },
+        {
+          "id": 3,
+          "name": "Under Armour Men's Wrap Sunglasses",
+          "image": "./images/under-armour.webp",
+          "price": "$20.00"
+        }
+      ],
+      "eyeGlasses": [
+        {
+          "id": 3,
+          "name": "Betsey Johnson Blue Light Reading Glasses",
+          "image": "./images/betsey-johnson.webp",
+          "price": "$10.00"
+        },
+        {
+          "id": 4,
+          "name": "Coach Eyeglasses Dark Tortoise",
+          "image": "./images/coach-eyeglasses.webp",
+          "price": "$20.00"
+        }
+      ],
+      "divingGlasses": [
+        {
+          "id": 5,
+          "name": "Frameless Scuba Dive Mask",
+          "image": "./images/frameless-scuba.webp",
+          "price": "$20.00"
+        },
+        {
+          "id": 6,
+          "name": "Snorkeling Mask Anti-Fog Tempered Glass",
+          "image": "./images/snorkeling-mask.webp",
+          "price": "$10.00"
+        }
+      ],
+      "brandedGlasses": [
+        {
+          "id": 7,
+          "name": "Carrera Men's Shield Sunglasses",
+          "image": "./images/carrera.webp",
+          "price": "$20.00"
+        },
+        {
+          "id": 8,
+          "name": "Versace Men's Rectangular Glasses",
+          "image": "./images/versace.webp",
+          "price": "$10.00"
+        }
+      ]
     }
   ]
 }

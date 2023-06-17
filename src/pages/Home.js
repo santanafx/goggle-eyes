@@ -2,6 +2,7 @@ import React from 'react'
 import { Slider } from '../components/Slider';
 import { InformationBar } from '../components/InformationBar';
 import { Goggles } from '../components/Goggles';
+import { Featured } from '../components/Featured';
 
 export const Home = () => {
 
@@ -16,6 +17,7 @@ export const Home = () => {
             <Slider slides={slides} />
             <InformationBar />
             <Goggles />
+            <Featured />
         </main>
     )
 }

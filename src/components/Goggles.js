@@ -15,24 +15,24 @@ export const Goggles = () => {
                     </div>
                     <div className={styles.gogglesImgsContainer}>
                         <div>
-                            <img src={data[0].image} alt="Swimming goggles." />
-                            <span>Swimming goggles (2)</span>
+                            <img src='./images/swimming-goggles.webp' alt="Swimming goggles." />
+                            <span>Swimming goggles ({data[0].swimmingGoggles.length})</span>
                         </div>
                         <div>
-                            <img src={data[1].image} alt="Sunglasses." />
-                            <span>Sunglasses (2)</span>
+                            <img src='./images/sunglasses.webp' alt="Sunglasses." />
+                            <span>Sunglasses ({data[0].sunGlasses.length})</span>
                         </div>
                         <div>
-                            <img src={data[2].image} alt="Eye glasses." />
-                            <span>Eye glasses (2)</span>
+                            <img src='./images/eye-glasses.webp' alt="Eye glasses." />
+                            <span>Eye glasses ({data[0].eyeGlasses.length})</span>
                         </div>
                         <div>
-                            <img src={data[3].image} alt="Diving glasses." />
-                            <span>Diving glasses (2)</span>
+                            <img src='./images/diving-glasses.webp' alt="Diving glasses." />
+                            <span>Diving glasses ({data[0].divingGlasses.length})</span>
                         </div>
                         <div>
-                            <img src={data[4].image} alt="Branded glasses." />
-                            <span>Branded (2)</span>
+                            <img src='./images/brandedglasses.webp' alt="Branded glasses." />
+                            <span>Branded ({data[0].brandedGlasses.length})</span>
                         </div>
                     </div></> : ''}
         </section>
