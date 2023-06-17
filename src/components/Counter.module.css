@@ -1,0 +1,22 @@
+.counterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.counterNumber {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 0 5px;
+    min-width: 50px;
+    font-size: 2rem;
+}
+
+.counterTime {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+}

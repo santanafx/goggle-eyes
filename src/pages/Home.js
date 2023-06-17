@@ -5,6 +5,7 @@ import { Goggles } from '../components/Goggles';
 import { Featured } from '../components/Featured';
 import { AdvertiseSummer } from '../components/AdvertiseSummer';
 import { PopularProducts } from '../components/PopularProducts';
+import { AdvertiseBigSale } from '../components/AdvertiseBigSale';
 
 export const Home = () => {
 
@@ -22,6 +23,7 @@ export const Home = () => {
             <Featured />
             <AdvertiseSummer />
             <PopularProducts />
+            <AdvertiseBigSale />
         </main>
     )
 }
