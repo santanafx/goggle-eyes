@@ -1,11 +1,12 @@
 import React from 'react'
-import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown, AiOutlineClose, AiOutlineMenuFold } from "react-icons/ai";
 import styles from './Header.module.css'
 
 export const Header = () => {
     const [menuPagesActive, setMenuPagesActive] = React.useState(false);
     const [menuShopActive, setMenuShopActive] = React.useState(false);
     const [menuCartActive, setMenuCartActive] = React.useState(false);
+    const [menuMainActive, setMenuMainActive] = React.useState(false);
 
     return (
         <header>
@@ -48,7 +49,9 @@ export const Header = () => {
                         <a href="/#">SALE</a>
                     </div>
                 </nav>
+
                 <div className={styles.headerUserSettings}>
+                    <AiOutlineMenuFold size="25" className={styles.headerUserMenuIcon} onClick={() => setMenuMainActive(!menuMainActive)} />
                     <AiOutlineUser size='25' />
                     <div>
                         <AiOutlineShoppingCart size='25' onClick={() => setMenuCartActive(!menuCartActive)} />
@@ -57,11 +60,27 @@ export const Header = () => {
                 </div>
             </div>
             {menuCartActive ? <>
-                <div className={styles.headerDarkMenu}></div>
-                <div className={styles.sideBarMenu}>
-                    <AiOutlineClose size='25' onClick={() => setMenuCartActive(!menuCartActive)} />
+                <div className={styles.headerDarkRightMenu}>
+                    <div className={styles.sideBarMenu}>
+                        <div>
+                            <a href="/#" onClick={() => setMenuCartActive(!menuCartActive)}>X</a>
+                        </div>
+                    </div>
                 </div>
             </> : ''}
-        </header>
+            {menuMainActive ?
+                <>
+                    <div className={styles.headerDarkLeft}>
+                        <div className={styles.headerDarkLeftMenu}>
+                            <a href="/#" onClick={() => setMenuMainActive(!menuMainActive)}>X</a>
+                            <a href="/#">HOME</a>
+                            <a href="/#">PAGES</a>
+                            <a href="/#">SHOP</a>
+                            <a href="/#">SINGLE PAGE</a>
+                            <a href="/#">SALE</a>
+                        </div>
+                    </div>
+                </> : ''}
+        </header >
     )
 }

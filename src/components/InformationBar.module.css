@@ -12,7 +12,7 @@
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    height: 100px;
+    min-height: 100px;
 }
 
 .informationBarContainer p {
@@ -24,9 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 240px;
-    min-width: 210px;
+    min-width: 260px;
     padding: 0 10px;
     min-height: 70px;
     user-select: none;
@@ -47,5 +45,12 @@
     border-style: none solid none none;
     border-width: 1px;
     border-color: white;
-    margin: 0 10px;
+}
+
+@media (max-width:1111px) {
+    .informationBarDescription:nth-child(4) {
+        border-style: none solid none none;
+        border-width: 1px;
+        border-color: white;
+    }
 }

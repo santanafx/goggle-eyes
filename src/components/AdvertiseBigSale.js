@@ -7,17 +7,19 @@ export const AdvertiseBigSale = () => {
     return (
         <section>
             <div className={styles.advertiseBigSaleContainer}>
-                <div className={styles.advertiseBigSaleImgs}>
+                <div className={styles.advertiseBigSaleBanner}>
                     <img src="./images/bigsale1.webp" alt="Banner da grande venda." />
                     <div className={styles.advertiseDarkBg}></div>
                     <div className={styles.advertiseBigSaleNumb}>
                         <div>
-                            <h1>BIG SALE</h1>
-                            <span>UP TO 35% OFF</span>
+                            <div>
+                                <h1>BIG SALE</h1>
+                                <span>UP TO 35% OFF</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className={styles.advertiseBigSaleImgs}>
+                <div className={styles.advertiseBigSaleClock}>
                     <img src="./images/bigsale2.webp" alt="Banner da grande venda." />
                     <div className={styles.advertiseDarkBg}></div>
                     <div className={styles.advertiseBigSaleCount}>

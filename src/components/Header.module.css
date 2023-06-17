@@ -136,6 +136,10 @@
     background-color: var(--first-color);
 }
 
+.headerUserMenuIcon {
+    display: none;
+}
+
 .headerUserSettings {
     width: 40%;
     display: flex;
@@ -147,7 +151,6 @@
     margin: 0 15px;
     cursor: pointer;
 }
-
 
 .headerUserSettings div {
     position: relative;
@@ -167,7 +170,7 @@
     border-radius: 25%;
 }
 
-.headerDarkMenu {
+.headerDarkRightMenu {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -183,28 +186,151 @@
     top: 0;
     right: 0;
     bottom: 0;
+    width: 200px;
+    transform: translateX(200px);
     background-color: white;
-    animation: sideBar 1s forwards;
-    box-shadow: 0px 4px 20px rgba(77, 77, 77, 0.3);
+    animation: rightSideBar 1s forwards;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
 }
 
-@keyframes sideBar {
+.sideBarMenu div {
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+    border: 1px solid var(--sixth-color);
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sideBarMenu div a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+@keyframes rightSideBar {
     0% {
         opacity: 0;
     }
 
-    20% {
-        left: 100%
-    }
-
     100% {
         opacity: 1;
-        left: 85%
+        transform: translateX(0px);
     }
 }
 
-.sideBarMenu svg {
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
+
+@media (max-width: 1240px) {
+    .headerContainerBottom {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .headerLogo {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .headerMenu {
+        display: none;
+    }
+
+    .headerUserMenuIcon {
+        display: flex;
+        width: 45px;
+        transition: 0.5s;
+        border: 1px solid var(--sixth-color);
+        border-radius: 2px;
+    }
+
+    .headerUserMenuIcon:hover {
+        background-color: var(--seventh-color);
+        width: 45px;
+    }
+
+    .headerUserSettings {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .headerDarkLeft {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(0, 0, 0, 0.3);
+        z-index: 1000;
+        animation: darkLeft 1s forwards;
+    }
+
+    .headerDarkLeftMenu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 350px;
+        transform: translateX(-350px);
+        background-color: white;
+        z-index: 1001;
+        animation: 1s darkLeftMenu 1s forwards;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .headerDarkLeftMenu a:nth-child(1) {
+        align-self: flex-end;
+        cursor: pointer;
+        margin-bottom: 30px;
+        border: 1px solid var(--sixth-color);
+        border-radius: 3px;
+        padding: 10px;
+        margin: 10px 10px 0 0;
+        color: var(--first-color);
+    }
+
+    .headerDarkLeftMenu a {
+        cursor: pointer;
+        border-bottom: 1px solid var(--sixth-color);
+        border-bottom-width: 100%;
+        text-decoration: none;
+        color: var(--first-color);
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    @keyframes darkLeft {
+        0% {
+            opacity: 0;
+            right: 100%;
+        }
+
+        100% {
+            opacity: 1;
+            right: 0%;
+        }
+    }
+
+    @keyframes darkLeftMenu {
+        0% {
+            opacity: 0;
+            transform: translateX(-350px);
+
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
 }
