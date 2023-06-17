@@ -25,12 +25,7 @@
 }
 
 .headerLogo img {
-    /* max-height: 60px;
-    min-height: 45px; */
-    /* width: 100%; */
     max-width: 150px;
-    /* min-width: 110px;
-    object-fit: cover; */
 }
 
 .headerMenu {
@@ -68,7 +63,7 @@
     color: var(--third-color);
     top: 10px;
     left: -15px;
-    z-index: 20;
+    z-index: 6;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -115,7 +110,7 @@
     color: var(--third-color);
     top: 10px;
     left: -15px;
-    z-index: 20;
+    z-index: 6;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -150,6 +145,7 @@
 
 .headerUserSettings svg {
     margin: 0 15px;
+    cursor: pointer;
 }
 
 
@@ -169,4 +165,46 @@
     left: 33px;
     padding: 2px 4px;
     border-radius: 25%;
+}
+
+.headerDarkMenu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.sideBarMenu {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    animation: sideBar 1s forwards;
+    box-shadow: 0px 4px 20px rgba(77, 77, 77, 0.3);
+}
+
+@keyframes sideBar {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        left: 100%
+    }
+
+    100% {
+        opacity: 1;
+        left: 85%
+    }
+}
+
+.sideBarMenu svg {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
 }
