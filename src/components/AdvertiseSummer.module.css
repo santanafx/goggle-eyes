@@ -1,8 +1,9 @@
 .advertiseSummerContainer {
     width: 95%;
-    margin: 0 auto;
-    max-width: 1175px;
+    margin: 70px auto;
+    max-width: 1290px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 

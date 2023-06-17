@@ -4,6 +4,7 @@ import { InformationBar } from '../components/InformationBar';
 import { Goggles } from '../components/Goggles';
 import { Featured } from '../components/Featured';
 import { AdvertiseSummer } from '../components/AdvertiseSummer';
+import { PopularProducts } from '../components/PopularProducts';
 
 export const Home = () => {
 
@@ -20,6 +21,7 @@ export const Home = () => {
             <Goggles />
             <Featured />
             <AdvertiseSummer />
+            <PopularProducts />
         </main>
     )
 }

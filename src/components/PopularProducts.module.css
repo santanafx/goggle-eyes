@@ -1,0 +1,82 @@
+.popularContainerBg {
+    width: 100%;
+    background-color: var(--forth-color);
+    padding-bottom: 60px;
+}
+
+.popularContainerTop {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 665px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.popularContainerTop h1 {
+    color: var(--third-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.popularContainerTop span {
+    color: var(--third-color);
+    font-weight: 300;
+}
+
+.popularContainerBottom {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.popularContainerBottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+    min-height: 430px;
+    position: relative;
+}
+
+.popularContainerBottom div img {
+    max-width: 280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.popularContainerBottom div h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popularContainerBottom div span {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.popularContainerBottom div button {
+    background-color: var(--third-color);
+    color: white;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.popularContainerBottom div button:hover {
+    background-color: var(--first-color);
+
+}

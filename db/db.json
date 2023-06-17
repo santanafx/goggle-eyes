@@ -31,13 +31,13 @@
       ],
       "eyeGlasses": [
         {
-          "id": 3,
+          "id": 4,
           "name": "Betsey Johnson Blue Light Reading Glasses",
           "image": "./images/betsey-johnson.webp",
           "price": "$10.00"
         },
         {
-          "id": 4,
+          "id": 5,
           "name": "Coach Eyeglasses Dark Tortoise",
           "image": "./images/coach-eyeglasses.webp",
           "price": "$20.00"
@@ -45,13 +45,13 @@
       ],
       "divingGlasses": [
         {
-          "id": 5,
+          "id": 6,
           "name": "Frameless Scuba Dive Mask",
           "image": "./images/frameless-scuba.webp",
           "price": "$20.00"
         },
         {
-          "id": 6,
+          "id": 7,
           "name": "Snorkeling Mask Anti-Fog Tempered Glass",
           "image": "./images/snorkeling-mask.webp",
           "price": "$10.00"
@@ -59,13 +59,13 @@
       ],
       "brandedGlasses": [
         {
-          "id": 7,
+          "id": 8,
           "name": "Carrera Men's Shield Sunglasses",
           "image": "./images/carrera.webp",
           "price": "$20.00"
         },
         {
-          "id": 8,
+          "id": 9,
           "name": "Versace Men's Rectangular Glasses",
           "image": "./images/versace.webp",
           "price": "$10.00"
