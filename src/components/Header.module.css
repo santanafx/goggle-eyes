@@ -43,14 +43,102 @@
 .headerMenu div {
     margin: 0 15px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .headerMenu a {
     text-decoration: none;
     color: var(--first-color);
+}
+
+.headerMenuPages {
+    position: relative;
+}
+
+.headerMenuShop {
+    position: relative;
+}
+
+.dropDownMenuPages {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    min-width: 220px;
+    min-height: 83px;
+    font-size: 0.9rem;
+    color: var(--third-color);
+    top: 10px;
+    left: -15px;
+    z-index: 20;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    animation: dropdown 0.8s forwards;
+}
+
+@keyframes dropdown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 10px);
+        opacity: 1;
+    }
+}
+
+.dropDownMenuPages a {
+    border-bottom: 1px solid var(--sixth-color);
+    color: var(--sixth-color);
+    min-width: 220px;
+    border-bottom-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.dropDownMenuPages a:hover {
+    color: white;
+    background-color: var(--first-color);
+}
+
+.dropDownMenuShop {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    min-width: 220px;
+    min-height: 83px;
+    font-size: 0.9rem;
+    color: var(--third-color);
+    top: 10px;
+    left: -15px;
+    z-index: 20;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    animation: dropdown 0.8s forwards;
+}
+
+.dropDownMenuShop a {
+    border-bottom: 1px solid var(--sixth-color);
+    color: var(--sixth-color);
+    min-width: 220px;
+    border-bottom-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.dropDownMenuShop a:hover {
+    color: white;
+    background-color: var(--first-color);
 }
 
 .headerUserSettings {

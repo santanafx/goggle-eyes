@@ -3,6 +3,9 @@ import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown } from "react-
 import styles from './Header.module.css'
 
 export const Header = () => {
+    const [menuPagesActive, setMenuPagesActive] = React.useState(false);
+    const [menuShopActive, setMenuShopActive] = React.useState(false);
+
     return (
         <header>
             <div className={styles.headerContainerTop}>
@@ -16,13 +19,26 @@ export const Header = () => {
                     <div>
                         <a href="/#">HOME</a>
                     </div>
-                    <div>
+                    <div className={styles.headerMenuPages} onMouseEnter={() => setMenuPagesActive(!menuPagesActive)} onMouseLeave={() => setMenuPagesActive(!menuPagesActive)}>
+                        {console.log('passou em cima')}
                         <a href="/#">PAGES</a>
                         <AiOutlineCaretDown />
+                        {menuPagesActive ?
+                            <div className={styles.dropDownMenuPages}>
+                                <a href="/#">ABOUT</a>
+                                <a href="/#">BLOG</a>
+                            </div>
+                            : ''}
                     </div>
-                    <div>
+                    <div className={styles.headerMenuShop} onMouseEnter={() => setMenuShopActive(!menuShopActive)} onMouseLeave={() => setMenuShopActive(!menuShopActive)}>
                         <a href="/#">SHOP</a>
                         <AiOutlineCaretDown />
+                        {menuShopActive ?
+                            <div className={styles.dropDownMenuShop}>
+                                <a href="/#">CART</a>
+                                <a href="/#">CHECKOUT</a>
+                            </div>
+                            : ''}
                     </div>
                     <div>
                         <a href="/#">SINGLE SALE</a>

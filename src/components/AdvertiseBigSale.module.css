@@ -58,7 +58,6 @@
     left: 150px;
     z-index: 11;
     min-width: 300px;
-
 }
 
 .advertiseBigSaleCountText {
@@ -67,5 +66,4 @@
     align-items: center;
     flex-direction: column;
     color: white;
-
 }
