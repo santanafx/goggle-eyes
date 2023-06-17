@@ -1,0 +1,82 @@
+.featuredContainerBg {
+    width: 100%;
+    background-color: var(--forth-color);
+    padding-bottom: 60px;
+}
+
+.featuredContainerTop {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 665px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.featuredContainerTop h1 {
+    color: var(--third-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.featuredContainerTop span {
+    color: var(--third-color);
+    font-weight: 300;
+}
+
+.featuredContainerBottom {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.featuredContainerBottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+    min-height: 430px;
+    position: relative;
+}
+
+.featuredContainerBottom div img {
+    max-width: 280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.featuredContainerBottom div h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.featuredContainerBottom div span {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.featuredContainerBottom div button {
+    background-color: var(--third-color);
+    color: white;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.featuredContainerBottom div button:hover {
+    background-color: var(--first-color);
+
+}
