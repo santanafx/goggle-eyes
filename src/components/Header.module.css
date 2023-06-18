@@ -203,7 +203,6 @@
     width: 30px;
     display: flex;
     justify-content: center;
-
 }
 
 .sideBarMenu div a {
@@ -288,7 +287,12 @@
 
     }
 
-    .headerDarkLeftMenu a:nth-child(1) {
+    .headerDarkLeftMenu a:hover {
+        text-decoration: underline;
+    }
+
+
+    .headerDarkLeftMenuClose {
         align-self: flex-end;
         cursor: pointer;
         margin-bottom: 30px;
@@ -297,16 +301,15 @@
         padding: 10px;
         margin: 10px 10px 0 0;
         color: var(--first-color);
+        text-decoration: none;
     }
 
-    .headerDarkLeftMenu a {
+    .headerDarkLeftMenuOpt {
         cursor: pointer;
-        border-bottom: 1px solid var(--sixth-color);
-        border-bottom-width: 100%;
+
         text-decoration: none;
         color: var(--first-color);
-        margin-bottom: 10px;
-        padding-left: 10px;
+        padding: 0 0 10px 10px;
     }
 
     @keyframes darkLeft {
@@ -333,4 +336,43 @@
             transform: translateX(0px);
         }
     }
+
+    .headerDarkLeftMenuDropDown {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 0 0 10px 10px;
+    }
+
+    .headerDarkLeftMenuDropDown a {
+        text-decoration: none;
+        color: var(--first-color);
+    }
+
+    .headerDarkLeftMenuDropDown svg {
+        margin-right: 20px;
+    }
+
+    .menuPagesDropDown {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menuPagesDropDown a {
+        text-decoration: none;
+        color: var(--first-color);
+        cursor: pointer;
+        border-bottom: 1px solid var(--sixth-color);
+        border-bottom-width: 100%;
+        padding: 0 0 10px 10px;
+        transition: 0.3s;
+    }
+
+    .menuPagesDropDown a:hover {
+        color: white;
+        background-color: var(--first-color);
+    }
+
 }

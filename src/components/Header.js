@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown, AiOutlineClose, AiOutlineMenuFold } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineCaretDown, AiOutlineMenuFold } from "react-icons/ai";
 import styles from './Header.module.css'
 
 export const Header = () => {
@@ -7,6 +7,8 @@ export const Header = () => {
     const [menuShopActive, setMenuShopActive] = React.useState(false);
     const [menuCartActive, setMenuCartActive] = React.useState(false);
     const [menuMainActive, setMenuMainActive] = React.useState(false);
+    const [menuLeftPagesDropDown, setMenuLeftPagesDropDown] = React.useState(false);
+    const [menuLeftShopDropDown, setMenuLeftShopDropDown] = React.useState(false);
 
     return (
         <header>
@@ -72,12 +74,28 @@ export const Header = () => {
                 <>
                     <div className={styles.headerDarkLeft}>
                         <div className={styles.headerDarkLeftMenu}>
-                            <a href="/#" onClick={() => setMenuMainActive(!menuMainActive)}>X</a>
-                            <a href="/#">HOME</a>
-                            <a href="/#">PAGES</a>
-                            <a href="/#">SHOP</a>
-                            <a href="/#">SINGLE PAGE</a>
-                            <a href="/#">SALE</a>
+                            <a className={styles.headerDarkLeftMenuClose} href="/#" onClick={() => setMenuMainActive(!menuMainActive)}>X</a>
+                            <a className={styles.headerDarkLeftMenuOpt} href="/#">HOME</a>
+                            <div className={styles.headerDarkLeftMenuDropDown} onClick={() => setMenuLeftPagesDropDown(!menuLeftPagesDropDown)}>
+                                <a href="/#">PAGES</a>
+                                <AiOutlineCaretDown />
+                            </div>
+                            {menuLeftPagesDropDown ?
+                                <div className={styles.menuPagesDropDown}>
+                                    <a href="/#">ABOUT</a>
+                                    <a href="/#">BLOG</a>
+                                </div> : ''}
+                            <div className={styles.headerDarkLeftMenuDropDown} onClick={() => setMenuLeftShopDropDown(!menuLeftShopDropDown)}>
+                                <a href="/#">SHOP</a>
+                                <AiOutlineCaretDown />
+                            </div>
+                            {menuLeftShopDropDown ?
+                                <div className={styles.menuPagesDropDown}>
+                                    <a href="/#">CART</a>
+                                    <a href="/#">CHECKOUT</a>
+                                </div> : ''}
+                            <a className={styles.headerDarkLeftMenuOpt} href="/#">SINGLE PAGE</a>
+                            <a className={styles.headerDarkLeftMenuOpt} href="/#">SALE</a>
                         </div>
                     </div>
                 </> : ''}
