@@ -18,7 +18,6 @@ export const ContextProvider = ({ children }) => {
             .catch(err => console.log(err))
     }, [])
 
-    console.log(data)
     return (
         <Context.Provider value={{ data }}>
             {children}

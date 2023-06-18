@@ -3,7 +3,6 @@ import styles from './Slider.module.css'
 import { AiOutlineCaretRight, AiOutlineCaretLeft } from "react-icons/ai";
 import { VscCircleLargeFilled } from "react-icons/vsc";
 
-
 export const Slider = ({ slides }) => {
 
     const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -11,10 +10,12 @@ export const Slider = ({ slides }) => {
     const timerRef = React.useRef(null);
 
     React.useEffect(() => {
+
         clearTimeout(timerRef.current)
         timerRef.current = setTimeout(() => {
             goToNext();
             setAnimation(!animation);
+
         }, 5000)
     },)
 
@@ -45,6 +46,7 @@ export const Slider = ({ slides }) => {
     }
 
     return (
+
         <div className={styles.sliderContainer}>
             <div className={styles.sliderBgDark}></div>
             {animation ? <div className={styles.sliderAnimationImg}
@@ -76,7 +78,6 @@ export const Slider = ({ slides }) => {
                     <p>{slides[currentIndex].card}</p>
                     <button>Click Here</button>
                 </div>}
-
         </div>
     )
 }

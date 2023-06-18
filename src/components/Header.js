@@ -12,7 +12,6 @@ export const Header = () => {
 
     return (
         <header>
-
             <div className={styles.headerContainerTop}>
                 <p>END OF SEASON SALE - UP TO 80% OFF</p>
             </div>
@@ -30,7 +29,7 @@ export const Header = () => {
                         {menuPagesActive ?
                             <div className={styles.dropDownMenuPages}>
                                 <a href="/#">ABOUT</a>
-                                <a href="/#">BLOG</a>
+                                <a href="/#" onClick={() => window.location = '/blog'}>BLOG</a>
                             </div>
                             : ''}
                     </div>

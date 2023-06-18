@@ -1,0 +1,98 @@
+.blogTopContainer {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.blogTopContainer img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 320px;
+}
+
+.blogBlueLayer {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(172, 228, 227, 0.8);
+}
+
+.blogText {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blogText h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.blogText p {
+    text-align: justify;
+    color: var(--first-color);
+    font-weight: 200;
+}
+
+.blogBottomContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1180px;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.blogBottomContainerSubDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    min-height: 310px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.blogBottomContainerSubDiv div {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blogBottomContainer img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.blogBottomContainerSubDiv:hover img {
+    transform: scale(1.1) rotate(3deg);
+    opacity: 0.6;
+}
+
+.blogBottomContainer p {
+    margin-bottom: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.blogBottomContainer button {
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
