@@ -15,51 +15,51 @@ export const PopularProducts = () => {
                 </div>
                 <div className={styles.popularContainerBottom}>
                     <div>
-                        <img src={data[0].brandedGlasses[0].image} alt="" />
-                        <h2>{data[0].brandedGlasses[0].name}</h2>
-                        <span>{data[0].brandedGlasses[0].price}</span>
+                        <img src={data[4].items[0].image} alt="" />
+                        <h2>{data[4].items[0].name}</h2>
+                        <span>{data[4].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].brandedGlasses[1].image} alt="" />
-                        <h2>{data[0].brandedGlasses[1].name}</h2>
-                        <span>{data[0].brandedGlasses[1].price}</span>
+                        <img src={data[4].items[1].image} alt="" />
+                        <h2>{data[4].items[1].name}</h2>
+                        <span>{data[4].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].divingGlasses[0].image} alt="" />
-                        <h2>{data[0].divingGlasses[0].name}</h2>
-                        <span>{data[0].divingGlasses[0].price}</span>
+                        <img src={data[3].items[0].image} alt="" />
+                        <h2>{data[3].items[0].name}</h2>
+                        <span>{data[3].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].divingGlasses[1].image} alt="" />
-                        <h2>{data[0].divingGlasses[1].name}</h2>
-                        <span>{data[0].divingGlasses[1].price}</span>
+                        <img src={data[3].items[1].image} alt="" />
+                        <h2>{data[3].items[1].name}</h2>
+                        <span>{data[3].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].eyeGlasses[1].image} alt="" />
-                        <h2>{data[0].eyeGlasses[1].name}</h2>
-                        <span>{data[0].eyeGlasses[1].price}</span>
+                        <img src={data[2].items[1].image} alt="" />
+                        <h2>{data[2].items[1].name}</h2>
+                        <span>{data[2].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].eyeGlasses[0].image} alt="" />
-                        <h2>{data[0].eyeGlasses[0].name}</h2>
-                        <span>{data[0].eyeGlasses[0].price}</span>
+                        <img src={data[2].items[0].image} alt="" />
+                        <h2>{data[2].items[0].name}</h2>
+                        <span>{data[2].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].sunGlasses[1].image} alt="" />
-                        <h2>{data[0].sunGlasses[1].name}</h2>
-                        <span>{data[0].sunGlasses[1].price}</span>
+                        <img src={data[1].items[1].image} alt="" />
+                        <h2>{data[1].items[1].name}</h2>
+                        <span>{data[1].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].sunGlasses[0].image} alt="" />
-                        <h2>{data[0].sunGlasses[0].name}</h2>
-                        <span>{data[0].sunGlasses[0].price}</span>
+                        <img src={data[1].items[0].image} alt="" />
+                        <h2>{data[1].items[0].name}</h2>
+                        <span>{data[1].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ export const Footer = () => {
             <section className={styles.footerContainerBg}>
                 <div className={styles.footerContainer}>
                     <div className={styles.footerLogo}>
-                        <img src="./images/logo.webp" alt="" />
+                        <img src="/images/logo.webp" alt="" />
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cumque voluptas consequatur similique enim distinctio corrupti delectus aut repudiandae sapiente, porro adipisci et earum assumenda.</span>
                     </div>
                     <div className={styles.footerCustumer}>
@@ -51,7 +51,7 @@ export const Footer = () => {
             <section className={styles.footerBottomBg}>
                 <div className={styles.footerBottom}>
                     <span>© Goggles Eye. Theme by HasnainDEV.</span>
-                    <img src="./images/bank.png" alt="Banks." />
+                    <img src="/images/bank.png" alt="Banks." />
                 </div>
             </section>
         </footer>

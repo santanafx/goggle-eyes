@@ -7,6 +7,7 @@ import { Footer } from './components/Footer';
 import { Product } from './pages/Product';
 import { Blog } from './pages/Blog';
 import { NotFound } from './pages/NotFound';
+import { Collection } from './pages/Collection';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/product/:id' element={<Product />} />
+        <Route path='/collection/:id' element={<Collection />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />

@@ -6,7 +6,7 @@ export const Blog = () => {
     return (
         <section>
             <div className={styles.blogTopContainer}>
-                <img src="./images/slide1.webp" alt="Imagem mulher de óculos." />
+                <img src="/images/slide1.webp" alt="Imagem mulher de óculos." />
                 <div className={styles.blogBlueLayer}></div>
                 <div className={styles.blogText}>
                     <h1>Blog</h1>
@@ -16,21 +16,21 @@ export const Blog = () => {
             <div className={styles.blogBottomContainer}>
                 <div className={styles.blogBottomContainerSubDiv}>
                     <div>
-                        <img src="./images/professional-swimmer.webp" alt="Nadador profissional." />
+                        <img src="/images/professional-swimmer.webp" alt="Nadador profissional." />
                     </div>
                     <p>Professional swimmer training in goggles</p>
                     <button>LEARN MORE</button>
                 </div>
                 <div className={styles.blogBottomContainerSubDiv}>
                     <div>
-                        <img src="./images/laboratory-worker.webp" alt="Cientista de laboratório." />
+                        <img src="/images/laboratory-worker.webp" alt="Cientista de laboratório." />
                     </div>
                     <p>Goggles & mask for laboratory workers</p>
                     <button>LEARN MORE</button>
                 </div>
                 <div className={styles.blogBottomContainerSubDiv}>
                     <div>
-                        <img src="./images/protective-goggles.webp" alt="Óculos protetor." />
+                        <img src="/images/protective-goggles.webp" alt="Óculos protetor." />
                     </div>
                     <p>Best protective goggles to use</p>
                     <button>LEARN MORE</button>

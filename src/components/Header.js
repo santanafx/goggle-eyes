@@ -17,7 +17,7 @@ export const Header = () => {
             </div>
             <div className={styles.headerContainerBottom}>
                 <div className={styles.headerLogo}>
-                    <img src='./images/logo.webp' alt="Logo from goggle eyes" />
+                    <img src='/images/logo.webp' alt="Logo do goggle eyes." />
                 </div>
                 <nav className={styles.headerMenu}>
                     <div>

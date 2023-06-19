@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Sobre o projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="justify">O projeto tinha como objetivo criar um site responsivo e utilizar @keyframes do CSS para aprimorar os aspectos estéticos de projetos futuros. Ao acessar a página, os usuários se deparam com um slider que muda de slide a cada 5 segundos. Há um efeito de transição entre os slides, e os usuários podem trocar os slides usando as setas ou selecionando o slide específico a qualquer momento. Além disso, há um efeito de zoom automático nas imagens quando ocorre a troca de slide.
 
-## Available Scripts
+O menu no canto superior possui um efeito dropdown com uma transição suave, enquanto tanto o menu do carrinho (que desliza para a direita) quanto o menu principal (que desliza para a esquerda) quando acessado por dispositivos de tela menor, apresentam animações em suas transições respectivas.
 
-In the project directory, you can run:
+Além dos aspectos estéticos, foi criado um banco de dados utilizando o pacote json-server, simulando toda a parte backend de uma API Restful.</p>
 
-### `npm start`
+## Acesse
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://site-ativos-financeiros.vercel.app/">Acesse a aplicação clicando aqui</a>.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Imagens do projeto
 
-### `npm test`
+https://www.youtube.com/watch?v=x1SBv3wJi0Q
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.youtube.com/watch?v=-XOf9Le73jY
 
-### `npm run build`
+## Linguagens utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JavaScript | React | HTML | CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como instalar
 
-### `npm run eject`
+Para preparar o ambiente, precisaremos ter algumas coisas instaladas no computador, sendo elas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js
+<a href="https://nodejs.org/pt-br">Clique aqui para instalar o Node.js</a>.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="justify">
+Para instalar o Node, clique no link e baixe a versão LTS (versão recomendada)
+Para verificar se foi instalado corretamente, abra o terminal e escreva node -v ou node --version
+alt text: site do Nodejs, com o botão da versão recomendada em foco por um quadrado vermelho!
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img align="center" src='./src/images/readme/instrucao-node.png'>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Git
+<a href="https://git-scm.com/download/windows">Clique aqui para instalar o Git</a>.
 
-## Learn More
+<p align="justify">
+Caso não tenha um terminal de preferência, recomendo utilizar o git bash. Para instalá-lo, haverá uma opção durante a instalação do git para permitir instalar o git bash
+alt text: imagem mostrando várias caixas selecionáveis. A caixa “Git Bash Here” está em evidência por um quadrado vermelho com uma seta apontada para ele
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img align="center" src='./src/images/readme/instrucao-git.png'>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para verificar se o git foi instalado corretamente, abra o terminal e escreva git --version
+Visual Studio Code
 
-### Code Splitting
+Entre no link e baixe a versão de Windows.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a href="https://code.visualstudio.com/download">Clique aqui para instalar o Visual Studio</a>.
 
-### Analyzing the Bundle Size
+Clique com o botão direito em algum local do computador e selecione a opção Git Bash Here.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img align="center" src='./src/images/readme/instrucao-gitBashHere.png'>
 
-### Making a Progressive Web App
+Escreva no terminal o comando abaixo e no lugar de 'cole aqui' entre no projeto do GitHub e cole o link do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git clone 'cole aqui o link do projeto'
 
-### Advanced Configuration
+<img align="center" src='./src/images/readme/instrucao-clone.png'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img align="center" src='./src/images/readme/instrucao-gitClone.png'>
 
-### Deployment
+Uma pasta com o projeto desejado será adicionada a pasta em que foi escolhida.
+Clique com o botão direito em cima da pasta e selecione "Abrir com Code"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img align="center" src='./src/images/readme/instrucao-abrirCode.png'>
 
-### `npm run build` fails to minify
+Uma vez que o Visual studio estiver aberto com o projeto desejado, abra o terminal clicando no menu da aba superior e digite no terminal aberto o código "npm install" e logo em seguida digite "npm start". Uma janela do browser será aberta e o projeto será iniciado em seu computador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img align="center" src='./src/images/readme/instrucao-terminal.png'>
+
+<img align="center" src='./src/images/readme/instrucao-npm.png'>
+
+<br />
+
+# :sunglasses: Autor <a name="id07"></a>
+
+<br />
+
+Lucas Santana Figueiredo
+
+<div> 
+ <a href="https://discordapp.com/users/254746660549296128" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:santanafx@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/lucas-santana-figueiredo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://wa.me/5531997915854" target="_blank"><img src=https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white></a> 
+</div>

@@ -15,27 +15,27 @@ export const Featured = () => {
                 </div>
                 <div className={styles.featuredContainerBottom}>
                     <div>
-                        <img src={data[0].brandedGlasses[0].image} alt="" />
-                        <h2>{data[0].brandedGlasses[0].name}</h2>
-                        <span>{data[0].brandedGlasses[0].price}</span>
+                        <img src={data[4].items[0].image} alt="Imagem do produto" />
+                        <h2>{data[4].items[0].name}</h2>
+                        <span>{data[4].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].divingGlasses[0].image} alt="" />
-                        <h2>{data[0].divingGlasses[0].name}</h2>
-                        <span>{data[0].divingGlasses[0].price}</span>
+                        <img src={data[3].items[0].image} alt="Imagem do produto" />
+                        <h2>{data[3].items[0].name}</h2>
+                        <span>{data[3].items[0].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].eyeGlasses[1].image} alt="" />
-                        <h2>{data[0].eyeGlasses[1].name}</h2>
-                        <span>{data[0].eyeGlasses[1].price}</span>
+                        <img src={data[2].items[1].image} alt="Imagem do produto" />
+                        <h2>{data[2].items[1].name}</h2>
+                        <span>{data[2].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                     <div>
-                        <img src={data[0].sunGlasses[1].image} alt="" />
-                        <h2>{data[0].sunGlasses[1].name}</h2>
-                        <span>{data[0].sunGlasses[1].price}</span>
+                        <img src={data[1].items[1].image} alt="Imagem do produto" />
+                        <h2>{data[1].items[1].name}</h2>
+                        <span>{data[1].items[1].price}</span>
                         <button>ADD TO CART</button>
                     </div>
                 </div>
