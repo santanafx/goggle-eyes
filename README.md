@@ -10,9 +10,9 @@ Além dos aspectos estéticos, foi criado um banco de dados utilizando o pacote 
 
 <a href="https://goggle-eyes.vercel.app/">Acesse a aplicação clicando aqui</a>.
 
-## Imagens do projeto
+## Video do projeto
 
-
+<a href="https://youtu.be/YqwZobeCnpc">Video do projeto aqui</a>.
 
 ## Linguagens utilizadas
 
