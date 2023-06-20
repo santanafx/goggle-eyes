@@ -7,7 +7,7 @@ export const ContextProvider = ({ children }) => {
     const [data, setData] = React.useState();
 
     React.useEffect(() => {
-        fetch('http://localhost:5000/data', {
+        fetch('https://json-server-goggle-eyes.vercel.app/data', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
