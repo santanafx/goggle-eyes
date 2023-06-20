@@ -4,17 +4,15 @@
 
 O menu no canto superior possui um efeito dropdown com uma transição suave, enquanto tanto o menu do carrinho (que desliza para a direita) quanto o menu principal (que desliza para a esquerda) quando acessado por dispositivos de tela menor, apresentam animações em suas transições respectivas.
 
-Além dos aspectos estéticos, foi criado um banco de dados utilizando o pacote json-server, simulando toda a parte backend de uma API Restful.</p>
+Além dos aspectos estéticos, foi criado um banco de dados utilizando o pacote json-server, simulando toda a parte backend de uma API Restful, foi utilizado o script do arquivo package.json para inicializar o servidor automaticamente.</p>
 
 ## Acesse
 
-<a href="https://site-ativos-financeiros.vercel.app/">Acesse a aplicação clicando aqui</a>.
+<a href="https://goggle-eyes.vercel.app/">Acesse a aplicação clicando aqui</a>.
 
 ## Imagens do projeto
 
-https://www.youtube.com/watch?v=x1SBv3wJi0Q
 
-https://www.youtube.com/watch?v=-XOf9Le73jY
 
 ## Linguagens utilizadas
 
