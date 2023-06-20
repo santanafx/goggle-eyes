@@ -2,9 +2,7 @@
 
 <p align="justify">O projeto tinha como objetivo criar um site responsivo e utilizar @keyframes do CSS para aprimorar os aspectos estéticos de projetos futuros. Ao acessar a página, os usuários se deparam com um slider que muda de slide a cada 5 segundos. Há um efeito de transição entre os slides, e os usuários podem trocar os slides usando as setas ou selecionando o slide específico a qualquer momento. Além disso, há um efeito de zoom automático nas imagens quando ocorre a troca de slide.
 
-O menu no canto superior possui um efeito dropdown com uma transição suave, enquanto tanto o menu do carrinho (que desliza para a direita) quanto o menu principal (que desliza para a esquerda) quando acessado por dispositivos de tela menor, apresentam animações em suas transições respectivas.
-
-Além dos aspectos estéticos, foi criado um banco de dados utilizando o pacote json-server, simulando toda a parte backend de uma API Restful, foi utilizado o script do arquivo package.json para inicializar o servidor automaticamente.</p>
+O menu no canto superior possui um efeito dropdown com uma transição suave, enquanto tanto o menu do carrinho (que desliza para a direita) quanto o menu principal (que desliza para a esquerda) quando acessado por dispositivos de tela menor, apresentam animações em suas transições respectivas.</p>
 
 ## Acesse
 
