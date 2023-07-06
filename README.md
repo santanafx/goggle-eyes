@@ -6,11 +6,11 @@ O menu no canto superior possui um efeito dropdown com uma transição suave, en
 
 ## Acesse
 
-<a href="https://nasa-gallery-bice.vercel.app/">Acesse a aplicação clicando aqui</a>.
+<a href="https://goggle-eyes.vercel.app/">Acesse a aplicação clicando aqui</a>.
 
 ## Video do projeto
 
-<a href="https://youtu.be/QBJqfOv7ryM">Video do projeto aqui</a>.
+<a href="https://youtu.be/YqwZobeCnpc">Video do projeto aqui</a>.
 
 ## Linguagens utilizadas
 
